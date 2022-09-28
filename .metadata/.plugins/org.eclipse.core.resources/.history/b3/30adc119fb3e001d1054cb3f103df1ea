@@ -1,0 +1,38 @@
+package enshu2_2022;
+
+public class kukue {
+    public static void main(String[] args) {
+        int x, y, z;
+        y = 1;
+        System.out.print(" |");
+        for (int a = 1; a < 10; a++) {
+            System.out.print(" " + a);
+            if (a != 0) {
+                System.out.print(" ");
+            }
+        }
+        System.out.println();
+        for (int a = 1; a < 10; a++) {
+            System.out.print("---");
+        }
+        System.out.println();
+        for (y = 1; y < 10; y++) { // while 文 行 (縦方向) の変数を変化させる
+            System.out.print(y);
+            System.out.print("|");
+            for (x = 1; x < 10; x++) { // for 文 列 (横方向) の変数を変化させる
+            	if (x <= y) {
+                z = x * y;
+                if (z < 10) { // if 文 1 桁の数の場合 前に空白を一つ表示
+                    System.out.print(" " + z + " ");
+                } else { // else 文 2 桁の数の場合
+                    System.out.print(z + " ");
+                }
+            	}
+            	else {
+                    System.out.print(("　 "));
+                }
+            }
+            System.out.println(); // 改行表示
+        }
+    }
+}

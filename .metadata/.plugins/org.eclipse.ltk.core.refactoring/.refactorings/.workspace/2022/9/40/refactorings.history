@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース &apos;enshu2_2022&apos; を削除" deleteContents="false" description="リソース &apos;enshu2_2022&apos; を削除" element1="/enshu2_2022" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1664343530842"/>
+</session>
