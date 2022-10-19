@@ -1,0 +1,22 @@
+package enshu2_2022;
+
+public class ArgsTest2 {
+    public static void main(String[] args) {
+        String topArg = "";
+        if (args.length >= 1) {
+            topArg = args[0];// 先頭オプション
+        }
+        for (int i = 0; i < args.length; i++) {
+            System.out.print("[" + topArg.charAt(i) + "]");// i 番目の文字を表示
+        }
+        System.out.println();
+        for ( i = 0; i < args.length; i++) { // オプションの数だけ繰返し
+            System.out.print("arg " + i + " : " + args[i]);// i 番目を表示
+            if (args[i].equals(topArg)) {
+                System.out.println("    same");
+            } else {
+                System.out.println("    diff");
+            }
+        }
+    }
+}

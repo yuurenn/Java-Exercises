@@ -1,0 +1,79 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            
+            "type": "java",
+            "name": "Launch ArgsTest2",
+            "request": "launch",
+            "mainClass": "enshu2_2022.ArgsTest2",
+            "projectName": "2132014",
+            "args": "kosak ifuao kflajio fafg kosak"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgsTest",
+            "request": "launch",
+            "mainClass": "enshu2_2022.ArgsTest",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetGradeSunple",
+            "request": "launch",
+            "mainClass": "enshu2_2022.SetGradeSunple",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch kuku",
+            "request": "launch",
+            "mainClass": "enshu2_2022.kuku",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch kuku2",
+            "request": "launch",
+            "mainClass": "enshu2_2022.kuku2",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch kuku_Hex",
+            "request": "launch",
+            "mainClass": "enshu2_2022.kuku_Hex",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch kukue",
+            "request": "launch",
+            "mainClass": "enshu2_2022.kukue",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "enshu2_2022.test",
+            "projectName": "2132014"
+        },
+        {
+            "type": "java",
+            "name": "Launch zyouhousuugaku",
+            "request": "launch",
+            "mainClass": "enshu2_2022.zyouhousuugaku",
+            "projectName": "2132014"
+        }
+    ]
+}
